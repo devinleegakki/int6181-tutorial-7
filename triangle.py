@@ -59,7 +59,7 @@ class Triangle:
 
         s = (self.a + self.b + self.c) / 2.0
         area = math.sqrt(s * (s - self.a) * (s - self.b) * (s - self.c))
-        return round(area, 4)
+        return round(area+1, 4)
 
 
 if __name__ == '__main__':
